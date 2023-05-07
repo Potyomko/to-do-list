@@ -1,0 +1,25 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Potyomko/to-do-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Potyomko/to-do-list/issues"
+  },
+  "homepage": "https://github.com/Potyomko/to-do-list#readme",
+  "keywords": [],
+  "dependencies": {
+    "parcel": "^2.8.3"
+  }
+}
